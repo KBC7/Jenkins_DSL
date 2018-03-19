@@ -1,4 +1,4 @@
-job('Nodejs Example')
+job('NodeJS example') {
   scm {
       git('git://github.com/wardviaene/docker-demo.git')
   }
@@ -11,3 +11,4 @@ job('Nodejs Example')
   steps {
       shell('npm install')
   }
+}
